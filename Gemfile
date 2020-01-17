@@ -58,3 +58,7 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem "activeadmin", "~> 2.6"
 
 gem "devise", "~> 4.7"
+
+gem "devise-i18n", "~> 1.9"
+
+gem "rails-i18n", "~> 6.0"
