@@ -55,3 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Avoid polling for changes (recommendation from the rails CLI)
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem "activeadmin", "~> 2.6"
+
+gem "devise", "~> 4.7"

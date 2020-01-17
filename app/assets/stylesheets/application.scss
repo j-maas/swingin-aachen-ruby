@@ -11,7 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
+ *= require 'welcome'
  */
 
 // The following function is taken from https://gist.github.com/certainlyakey/e9c0d8f5c87ff47e3d5b
@@ -155,7 +155,7 @@ header {
     font-size: 100%;
   }
 
-  a{
+  a {
     padding-right: 0;
 
     &:hover {
