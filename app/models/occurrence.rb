@@ -3,12 +3,10 @@ class Occurrence < ApplicationRecord
 
   validates :event, presence: true
   validates :date, presence: true
-  validates :beginners, presence: true
+  validates :beginners, inclusion: {in: [true, false]}
 
   # Set default values that are available in forms.
   after_initialize do
-    if self.new_record?
-      self.beginners = false
-    end
+    self.beginners = false if self.new_record?
   end
 end

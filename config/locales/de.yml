@@ -1,0 +1,4 @@
+de:
+  date:
+    formats:
+      short: "%a, %d.%m."

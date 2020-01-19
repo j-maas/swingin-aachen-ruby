@@ -5,6 +5,9 @@ ActiveAdmin.register Event do
     selectable_column
     id_column
     column :name
+    column "Occurrences" do |event|
+      link_to "#{event.occurrences.count} von #{event.occurrences.minimum("date")} bis #{event.occurrences.maximum("date")}", admin_event_occurrences_path(event)
+    end
     actions
   end
 
