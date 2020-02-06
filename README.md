@@ -9,7 +9,7 @@ Ensure your machine has all of the following installed.
 - [SQLite](https://sqlite.org/index.html)
   > If on Windows Ruby does not find SQLite3, follow the instructions in [RubyIntaller's README](https://github.com/oneclick/rubyinstaller2#install-gems-with-c-extensions-and-additional-library-dependencies): Install it on MSYS2 with `ridk exec pacman -S mingw-w64-x86_64-sqlite3`.
 - [Node.js](https://nodejs.org/)
-- [Yarn](https://yarnpkg.com/)
+- [Yarn (version 1)](https://classic.yarnpkg.com/en/docs/install#debian-stable)
 
 ## Installation
 1. `bundle install` (Installs gem dependencies.)
